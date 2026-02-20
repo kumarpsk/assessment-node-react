@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  padding: 0 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contact-card {
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 8px;
+  text-align: left;
+}
+
+.contacts-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input, select, textarea {
+  padding: 8px;
+  margin: 8px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.edit-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  padding: 8px 16px;
+  margin: 4px;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+button.delete {
+  background-color: red;
+}
+button.delete:hover {
+  background-color: darkred;
+}
+button.cancel {
+  background-color: gray;
+}
+button.cancel:hover {
+  background-color: darkgray;
+}
